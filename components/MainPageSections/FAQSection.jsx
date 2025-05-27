@@ -5,7 +5,7 @@ export default function FAQSection() {
         <section id="section6" className="content-section">
             <div className="section-wrapper">
             <div className="section6-banner">
-                <div className="section6-content hidden">
+                <div className="section6-content">
                 <div className="section6-text">
                     <h1 className="section6-h1">FAQs</h1>
                     <p className="section6-p">Clarity That Builds Confidence</p>

@@ -5,7 +5,7 @@ export default function AboutUsSection() {
         <section id="section2" className="content-section">
             <div className="section-wrapper">
             <div className="section2-banner">
-                <div className="section2-content hidden">
+                <div className="section2-content">
                 <div className="section2-text">
                     <div className="section2-flex-item">
                     <h1 className="section2-h1">About Us</h1>

@@ -5,7 +5,7 @@ export default function ServicesSection() {
             <section id="section3" className="content-section">
                 <div className="section-wrapper">
                 <div className="section3-banner">
-                    <div className="section3-content hidden">
+                    <div className="section3-content">
                     <h1 className="section3-h1">Solution and Services</h1>
                     
                     <div className="section3-flex">
