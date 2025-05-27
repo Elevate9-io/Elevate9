@@ -8,7 +8,7 @@ export default function FormSection() {
                 <div className="section5-content">
                 <div className="section5-text">
                     <h1 className="section5-h1">Contact Us</h1>
-                    <p className="section5-p">Let's take your brand to the next level? <strong>Elevate with us!</strong></p>
+                    <p className="section5-p">Let&apos;s take your brand to the next level? <strong>Elevate with us!</strong></p>
                 </div>
                 <div className="section5-form">
                     <div id="nutshell-form-i5G0vO"></div>

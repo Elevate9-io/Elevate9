@@ -10,7 +10,7 @@ export default function AboutUsSection() {
                     <div className="section2-flex-item">
                     <h1 className="section2-h1">About Us</h1>
                     <p className="section2-p">
-                        At Elevate9, we're driven by purpose and powered by a team that shares our values. We build in-house, diverse teams who bring creativity, integrity, and excellence to everything we do. We hire based on skill and alignment, not
+                        At Elevate9, we&apos;re driven by purpose and powered by a team that shares our values. We build in-house, diverse teams who bring creativity, integrity, and excellence to everything we do. We hire based on skill and alignment, not
                         convenience, fostering a culture where feedback is respected and every voice is heard. We are committed to building inclusive teams from day one, supporting both U.S. and international team members equally, and upholding our values with integrity in every project. We never compromise short-term gain for long-term vision.
                     </p>
                     </div>

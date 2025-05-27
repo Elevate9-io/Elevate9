@@ -30,7 +30,7 @@ export default function FAQSection() {
                         <input type="radio" className="section6-accordion-input" id="third" name="accordion" />
                         <label htmlFor="third" className="section6-accordion-label">What is search engine optimization (SEO)?</label>
                         <div className="section6-accordion-content">
-                            <p className="section6-accordion-p">SEO improves your website's visibility on search engines, helping more people find your business online.</p>
+                            <p className="section6-accordion-p">SEO improves your website&apos;s visibility on search engines, helping more people find your business online.</p>
                         </div>
                     </li>
                     <li className="section6-accordion-list">
@@ -51,7 +51,7 @@ export default function FAQSection() {
                         <input type="radio" className="section6-accordion-input" id="sixth" name="accordion" />
                         <label htmlFor="sixth" className="section6-accordion-label">How does web development work?</label>
                         <div className="section6-accordion-content">
-                            <p className="section6-accordion-p">We plan, design, build, and launch websites tailored to your goals—ensuring they're fast, secure, and mobile-friendly.</p>
+                            <p className="section6-accordion-p">We plan, design, build, and launch websites tailored to your goals—ensuring they&apos;re fast, secure, and mobile-friendly.</p>
                         </div>
                     </li>
                     <li className="section6-accordion-list">
@@ -63,7 +63,7 @@ export default function FAQSection() {
                     </li>
                     <li className="section6-accordion-list">
                         <input type="radio" className="section6-accordion-input" id="eigth" name="accordion" />
-                        <label htmlFor="eigth" className="section6-accordion-label">How do you ensure that my brand's identity is unique?</label>
+                        <label htmlFor="eigth" className="section6-accordion-label">How do you ensure that my brand&apos;s identity is unique?</label>
                         <div className="section6-accordion-content">
                             <p className="section6-accordion-p">We research your industry, analyze competitors, and craft a strategy that reflects your values, voice, and vision.</p>
                         </div>

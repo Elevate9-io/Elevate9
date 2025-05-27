@@ -18,7 +18,7 @@ export default function ServicesSection() {
                             <div className="text-cont">
                                 <div className="text">
                                 <h2 className="section3-flex-h2">Branding</h2>
-                                <p className="section3-flex-p">It's the story you tell, the emotion you evoke, and the presence you build. We co-create a true identity that aligns with your goals and makes your brand stand out.</p>
+                                <p className="section3-flex-p">It&apos;s the story you tell, the emotion you evoke, and the presence you build. We co-create a true identity that aligns with your goals and makes your brand stand out.</p>
                                 </div>
                                 <div className="text-btn">
                                 <button className="section3-flex-btn">Read More</button>
@@ -34,7 +34,7 @@ export default function ServicesSection() {
                             <div className="text-cont">
                                 <div className="text">
                                 <h2 className="section3-flex-h2">Social media content</h2>
-                                <p className="section3-flex-p">Social media content isn’t just about aesthetics.
+                                <p className="section3-flex-p">Social media content isn&apos;t just about aesthetics.
                                 It's about creating a lasting connection with your audience.</p>
                                 </div>
                                 <div className="text-btn">
@@ -53,7 +53,7 @@ export default function ServicesSection() {
                             <div className="text-cont">
                                 <div className="text">
                                 <h2 className="section3-flex-h2">Web Development</h2>
-                                <p className="section3-flex-p">Custom web development gives you the power to create a website that’s perfectly aligned with your business goals. It offers flexibility, scalability, and full control over user experience and performance.</p>
+                                <p className="section3-flex-p">Custom web development gives you the power to create a website that&apos;s perfectly aligned with your business goals. It offers flexibility, scalability, and full control over user experience and performance.</p>
                                 </div>
                                 <div className="text-btn">
                                 <button className="section3-flex-btn">Read More</button>
