@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import 'tailwindcss';
-@import '@styles/style/general.css';
+@import '@styles/legacyStyles/main/main.css';
 
 @theme {
     --background-image-noise: linear-gradient(
@@ -37,6 +37,56 @@
     :not(pre) > code {
         @apply px-1 py-0.5 font-mono rounded bg-neutral-900 text-yellow-200;
         font-size: 0.9em;
+    }
+    
+    /*SIDEBAR*/
+    .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    z-index: 1000;
+    }
+
+    .sidebar-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    }
+
+    .sidebar-wrapper a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    background-color: white;
+    text-align: center;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+    }
+
+    .sidebar-wrapper a:active {
+    transform: scale(0.7);
+    }
+    
+    .sidebar-wrapper a.active {
+    background: rgba(183, 134, 11, 1);
+    color: white;
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 1);;
+    animation: pulse 1.5s infinite;
+    transform: scale(1.3);
     }
 }
 
