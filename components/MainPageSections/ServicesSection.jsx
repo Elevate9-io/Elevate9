@@ -29,9 +29,9 @@ export default function ServicesSection() {
                         <div className="section3-flex-item">
                             <div className="flex-container">
                             <div className="img-cont">
-                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon4.png" alt="" class="section3-icon" />
+                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon4.png" alt="" className="section3-icon" />
                             </div>
-                            <div class="text-cont">
+                            <div className="text-cont">
                                 <div className="text">
                                 <h2 className="section3-flex-h2">Social media content</h2>
                                 <p className="section3-flex-p">Social media content isn’t just about aesthetics.
