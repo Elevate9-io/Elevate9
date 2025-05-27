@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import 'tailwindcss';
-@import './legacystyles/main/body.css';
-@import './legacystyles/main/animation.css';
-@import './legacystyles/main/general.css';
-@import './legacystyles/main/otherPagesGeneral.css';
-@import './legacystyles/main/responsive.css';
+@import './legacyStyles/main/body.css';
+@import './legacyStyles/main/animation.css';
+@import './legacyStyles/main/general.css';
+@import './legacyStyles/main/otherPagesGeneral.css';
+@import './legacyStyles/main/responsive.css';
 
 @theme {
     --color-primary: #2bdcd2;
