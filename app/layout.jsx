@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
             </head>
             <body className="antialiased text-white bg-black scroll-smooth">
                 <div className="flex flex-col min-h-screen px-6">
-                    <div className="flex flex-col w-full max-w-5xl mx-auto grow">
+                    <div className="flex flex-col w-full mx-auto grow">
                         <main className="grow">{children}</main>
                     </div>
                 </div>
