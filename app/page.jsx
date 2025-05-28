@@ -13,8 +13,7 @@ export default function Page() {
     return (
         <div className="flex">
             <Sidebar />
-            
-            <div className="flex-grow">
+            <div className="flex-grow ml-[1vw] md:ml-0">
                 <BrandElevationSection />
 
                 <AboutUsSection />
@@ -29,7 +28,6 @@ export default function Page() {
 
                 <ContactUsSection />
             </div>
-
         </div>
     );
 }
