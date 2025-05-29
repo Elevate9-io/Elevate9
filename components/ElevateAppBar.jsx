@@ -32,7 +32,14 @@ export default function ElevateAppBar() {
     ];
 
     return (
-        <AppBar position="sticky" elevation={1} sx={{ backgroundColor: 'black' }}>
+        <AppBar
+            position="sticky"
+            elevation={1}
+            sx={{
+                backgroundColor: isMobile ? 'black' : 'black',
+                color: isMobile ? 'white' : 'inherit',
+            }}
+        >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Box
@@ -64,12 +71,13 @@ export default function ElevateAppBar() {
                                     anchor="left"
                                     open={drawerOpen}
                                     onClose={() => setDrawerOpen(false)}
+                                    PaperProps={{ sx: { backgroundColor: 'black', color: 'white' } }}
                                 >
                                     <Box sx={{ width: 220 }} role="presentation" onClick={() => setDrawerOpen(false)}>
                                         <List>
                                             {navLinks.map(({ href, label }) => (
                                                 <ListItem key={label} disablePadding>
-                                                    <ListItemButton component="a" href={href}>
+                                                    <ListItemButton component="a" href={href} sx={{ color: 'white' }}>
                                                         <ListItemText primary={label} />
                                                     </ListItemButton>
                                                 </ListItem>
