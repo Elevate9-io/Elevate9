@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/favicon.svg" sizes="any" />
+                <link rel="icon" href="/images/Elevate9-Logo-2.png" sizes="any" />
             </head>
-            <body className="antialiased text-white scroll-smooth">
+            <body className="antialiased scroll-smooth">
                 <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
                     <Sidebar />
                     <div className="flex flex-col min-h-screen">
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
                                         <Link href="#section2" passHref legacyBehavior>
                                             <Typography component="a" sx={{ color: 'inherit', textDecoration: 'none', fontWeight: 500, px: 2, py: 1, '&:hover': { color: 'primary.main' } }}>About Us</Typography>
                                         </Link>
-                                        <Link href="/Services" passHref legacyBehavior>
+                                        <Link href="#section3" passHref legacyBehavior>
                                             <Typography component="a" sx={{ color: 'inherit', textDecoration: 'none', fontWeight: 500, px: 2, py: 1, '&:hover': { color: 'primary.main' } }}>Services</Typography>
                                         </Link>
                                         <Link href="#section4" passHref legacyBehavior>
