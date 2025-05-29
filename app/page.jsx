@@ -11,7 +11,7 @@ import ContactUsSection from "components/MainPageSections/ContactUsSection";
 export default function Page() {
     return (
         <div className="flex">
-            <div className="flex-grow ml-[1vw] md:ml-0">
+            <div className="flex-grow md:ml-0">
                 <BrandElevationSection />
 
                 <AboutUsSection />
