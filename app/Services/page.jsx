@@ -29,8 +29,10 @@ export default function BrandingServicesSection() {
                 text: 'In this kit, all the essential information is organized in one place, providing you with all the tools necessary to succeed and strengthen your brand’s presence. A guide with everything you need to maintain a consistent and powerful image across all platforms.'
               }
             ].map((item, idx) => (
-              <Box key={idx}>
-                <Typography variant="h6" className="text-xl font-semibold">{item.title}</Typography>
+              <Box key={idx} sx={{ display: 'flex', gap: 5 }}>
+                <Typography variant="h6" className="text-xl font-semibold" sx={{ textAlign: 'right' }}>
+                    {item.title}
+                </Typography>
                 <Typography variant="body2" className="text-gray-400 text-sm">{item.text}</Typography>
               </Box>
             ))}
