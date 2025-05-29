@@ -1,11 +1,12 @@
 'use client';
 
-import { Button } from '@mui/material';
+import { Box, Button } from '@mui/material';
 
 export default function BrandingServicesSection() {
   return (
-    <section className="bg-black text-white font-sans">
-      <div className="max-w-7xl mx-auto px-6 py-20 space-y-32">
+    <Box className="bg-black text-white font-sans">
+      <Box className="max-w-7xl mx-auto px-6 py-20 space-y-32">
+        {/* Branding Section */}
         <div className="space-y-10">
           <h2 className="text-sm font-light uppercase">Branding</h2>
           <h1 className="text-3xl md:text-5xl font-bold">Graphic and Strategic design</h1>
@@ -36,6 +37,7 @@ export default function BrandingServicesSection() {
           </div>
         </div>
 
+        {/* Social Media Branding Section */}
         <div className="space-y-10">
           <h2 className="text-sm font-light uppercase">Branding</h2>
           <h1 className="text-3xl md:text-5xl font-bold">Branded content for social media</h1>
@@ -62,6 +64,7 @@ export default function BrandingServicesSection() {
           </div>
         </div>
 
+        {/* Coaching & Mentorship Section */}
         <div className="space-y-10">
           <h2 className="text-sm font-light uppercase">Branding</h2>
           <h1 className="text-3xl md:text-5xl font-bold">Coaching & mentorship</h1>
@@ -77,6 +80,7 @@ export default function BrandingServicesSection() {
           </ul>
         </div>
 
+        {/* Key Benefits Section */}
         <div className="space-y-10">
           <h2 className="text-sm font-light uppercase">Branding</h2>
           <h1 className="text-3xl md:text-5xl font-bold">Key benefits of marketing</h1>
@@ -103,6 +107,8 @@ export default function BrandingServicesSection() {
           </div>
         </div>
 
+
+        {/* Call to Action Button */}
         <div className="text-center pt-10">
           <Button
             variant="contained"
@@ -113,7 +119,7 @@ export default function BrandingServicesSection() {
             Lets create together
           </Button>
         </div>
-      </div>
-    </section>
+      </Box>
+    </Box>
   );
 }
