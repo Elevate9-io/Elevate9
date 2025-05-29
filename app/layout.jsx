@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from 'next/link';
 
+import Sidebar from "components/Sidebar";
+
 import '../styles/globals.css';
 
 
@@ -24,6 +26,7 @@ export default function RootLayout({ children }) {
             </head>
             <body className="antialiased text-white scroll-smooth">
                 <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
+                    <Sidebar />
                     <div className="flex flex-col min-h-screen">
                         <AppBar position="static" color="default" elevation={1}>
                             <Container maxWidth="xl">
@@ -43,7 +46,7 @@ export default function RootLayout({ children }) {
                                         <Link href="#section2" passHref legacyBehavior>
                                             <Typography component="a" sx={{ color: 'inherit', textDecoration: 'none', fontWeight: 500, px: 2, py: 1, '&:hover': { color: 'primary.main' } }}>About Us</Typography>
                                         </Link>
-                                        <Link href="#section3" passHref legacyBehavior>
+                                        <Link href="/Services" passHref legacyBehavior>
                                             <Typography component="a" sx={{ color: 'inherit', textDecoration: 'none', fontWeight: 500, px: 2, py: 1, '&:hover': { color: 'primary.main' } }}>Services</Typography>
                                         </Link>
                                         <Link href="#section4" passHref legacyBehavior>
