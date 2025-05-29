@@ -68,7 +68,7 @@ export default function BrandingPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <div>
               <h4 className="text-xl font-semibold mb-2">Reels & Posts Creation</h4>
-              <p className="text-gray-300">Strategic, visually stunning content that tells your brand's story.</p>
+              <p className="text-gray-300">Strategic, visually stunning content that tells your brand&apos;s story.</p>
             </div>
             <div>
               <h4 className="text-xl font-semibold mb-2">Social Media Management</h4>
