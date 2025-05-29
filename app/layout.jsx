@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
                 <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
                     <Sidebar />
                     <div className="flex flex-col min-h-screen">
-                        <AppBar position="static" color="default" elevation={1}>
+                        <AppBar position="static" elevation={1} sx={{ backgroundColor: 'black' }}>
                             <Container maxWidth="xl">
                                 <Toolbar disableGutters>
                                     <Typography
