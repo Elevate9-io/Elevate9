@@ -1,9 +1,4 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Link from 'next/link';
 
 import Sidebar from "components/Sidebar";
 import ElevateAppBar from "components/ElevateAppBar";
