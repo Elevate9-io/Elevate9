@@ -16,7 +16,7 @@ export default function BrandingPage() {
               <h3 className="text-xl font-light uppercase tracking-wide mb-8">Branding</h3>
               <h1 className="text-5xl font-bold leading-tight mb-24">Graphic and Strategic design</h1>
               <p className="text-lg leading-relaxed text-gray-200">
-                Beyond the logo, we build your brand. We create a unique visual identity, from concept to execution. Together, we’ll bring your vision to life through a logo that embodies its essence, a color palette that resonates with your audience, and all the visual elements needed to make your brand stand out. Our mission is to ensure your brand is not only seen, but understood, leaving a lasting impression.
+                Beyond the logo, we build your brand. We create a unique visual identity, from concept to execution. Together, we&apos;ll bring your vision to life through a logo that embodies its essence, a color palette that resonates with your audience, and all the visual elements needed to make your brand stand out. Our mission is to ensure your brand is not only seen, but understood, leaving a lasting impression.
               </p>
             </div>
 
@@ -24,13 +24,13 @@ export default function BrandingPage() {
               <div>
                 <h4 className="text-xl font-semibold mb-4">Brand identity</h4>
                 <p className="text-gray-300">
-                  Beyond the logo, we build your brand. We create a unique visual identity, from concept to execution. Together, we’ll bring your vision to life through a logo that embodies its essence, a color palette that resonates with your audience, and all the visual elements needed to make your brand stand out. Our mission is to ensure your brand is not only seen, but understood, leaving a lasting impression.
+                  Beyond the logo, we build your brand. We create a unique visual identity, from concept to execution. Together, we&apos;ll bring your vision to life through a logo that embodies its essence, a color palette that resonates with your audience, and all the visual elements needed to make your brand stand out. Our mission is to ensure your brand is not only seen, but understood, leaving a lasting impression.
                 </p>
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-4">Editorial services</h4>
                 <p className="text-gray-300">
-                  We complement your brand identity with high-quality editorial design. From corporate stationery to printed materials, we ensure every piece reinforces your brand’s personality, maintaining consistency and professionalism in every detail.
+                  We complement your brand identity with high-quality editorial design. From corporate stationery to printed materials, we ensure every piece reinforces your brand&apos;s personality, maintaining consistency and professionalism in every detail.
                 </p>
               </div>
               <div>
@@ -42,7 +42,7 @@ export default function BrandingPage() {
               <div>
                 <h4 className="text-xl font-semibold mb-4">Branding kit</h4>
                 <p className="text-gray-300">
-                  In this kit, all the essential information is organized in one place, providing you with all the tools necessary to succeed and strengthen your brand’s presence. A guide with everything you need to maintain a consistent and powerful image across all platforms.
+                  In this kit, all the essential information is organized in one place, providing you with all the tools necessary to succeed and strengthen your brand&apos;s presence. A guide with everything you need to maintain a consistent and powerful image across all platforms.
                 </p>
               </div>
             </div>
@@ -93,11 +93,11 @@ export default function BrandingPage() {
           <h1 className="text-5xl font-bold mb-12">Coaching & mentorship</h1>
           <h4 className="text-xl font-semibold mb-6">Shaping Your Brand with Strategy & Vision</h4>
           <p className="mb-4">
-            Building a brand goes beyond aesthetics; it’s about clarity, consistency, and purpose. At Elevate9, we understand this, which is why our Creative Mentorship & Art Direction program is designed to guide you in defining, strengthening, and aligning your brand identity with your vision and business goals.
+            Building a brand goes beyond aesthetics; it&apos;s about clarity, consistency, and purpose. At Elevate9, we understand this, which is why our Creative Mentorship & Art Direction program is designed to guide you in defining, strengthening, and aligning your brand identity with your vision and business goals.
           </p>
           <ul className="list-disc pl-5 space-y-2 text-gray-300">
-            <li>Develop an Action Plan – Define clear steps to implement and evolve your brand.</li>
-            <li>Strengthen Brand Consistency – Ensure a unified presence across all touchpoints, from digital platforms to physical branding.</li>
+            <li>Develop an Action Plan &ndash; Define clear steps to implement and evolve your brand.</li>
+            <li>Strengthen Brand Consistency &ndash; Ensure a unified presence across all touchpoints, from digital platforms to physical branding.</li>
           </ul>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function BrandingPage() {
             </div>
           </div>
           <div className="mt-16 text-center">
-            <button className="section1-button">Let’s create together</button>
+            <button className="section1-button">Let&apos;s create together</button>
           </div>
         </div>
       </section>
