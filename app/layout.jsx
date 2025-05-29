@@ -1,4 +1,7 @@
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+
 import '../styles/globals.css';
+
 
 export const metadata = {
     title: {
@@ -14,11 +17,13 @@ export default function RootLayout({ children }) {
                 <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
             <body className="antialiased text-white scroll-smooth">
-                <div className="flex flex-col min-h-screen">
-                    <div className="flex flex-col w-full mx-auto grow">
-                        <main className="grow">{children}</main>
+                <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
+                    <div className="flex flex-col min-h-screen">
+                        <div className="flex flex-col w-full mx-auto grow">
+                            <main className="grow">{children}</main>
+                        </div>
                     </div>
-                </div>
+                </AppRouterCacheProvider>
             </body>
         </html>
     );
