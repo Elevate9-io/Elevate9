@@ -13,8 +13,8 @@ import '../styles/globals.css';
 
 export const metadata = {
     title: {
-        template: '%s | Netlify',
-        default: 'Netlify Starter'
+        template: '%s | Elevate9',
+        default: 'Elevate9 - Elevate Your Brand',
     }
 };
 
