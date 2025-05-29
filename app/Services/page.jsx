@@ -1,16 +1,16 @@
 'use client';
 
-import { Box, Button } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 
 export default function BrandingServicesSection() {
   return (
     <Box className="bg-black text-white font-sans">
       <Box className="max-w-7xl mx-auto px-6 py-20 space-y-32">
         {/* Branding Section */}
-        <div className="space-y-10">
-          <h2 className="text-sm font-light uppercase">Branding</h2>
-          <h1 className="text-3xl md:text-5xl font-bold">Graphic and Strategic design</h1>
-          <div className="md:grid-cols-2 gap-10 max-w-4xl flex-row">
+        <Box className="space-y-10">
+          <Typography variant="subtitle2" className="text-sm font-light uppercase">Branding</Typography>
+          <Typography variant="h4" className="text-3xl md:text-5xl font-bold">Graphic and Strategic design</Typography>
+          <Box className="md:grid-cols-2 gap-10 max-w-4xl flex-row">
             {[
               {
                 title: 'Brand identity',
@@ -29,19 +29,19 @@ export default function BrandingServicesSection() {
                 text: 'In this kit, all the essential information is organized in one place, providing you with all the tools necessary to succeed and strengthen your brand’s presence. A guide with everything you need to maintain a consistent and powerful image across all platforms.'
               }
             ].map((item, idx) => (
-              <div key={idx}>
-                <h3 className="text-xl font-semibold">{item.title}</h3>
-                <p className="text-gray-400 text-sm">{item.text}</p>
-              </div>
+              <Box key={idx}>
+                <Typography variant="h6" className="text-xl font-semibold">{item.title}</Typography>
+                <Typography variant="body2" className="text-gray-400 text-sm">{item.text}</Typography>
+              </Box>
             ))}
-          </div>
-        </div>
+          </Box>
+        </Box>
 
         {/* Social Media Branding Section */}
-        <div className="space-y-10">
-          <h2 className="text-sm font-light uppercase">Branding</h2>
-          <h1 className="text-3xl md:text-5xl font-bold">Branded content for social media</h1>
-          <div className="flex-row md:grid-cols-2 gap-10 max-w-4xl">
+        <Box className="space-y-10">
+          <Typography variant="subtitle2" className="text-sm font-light uppercase">Branding</Typography>
+          <Typography variant="h4" className="text-3xl md:text-5xl font-bold">Branded content for social media</Typography>
+          <Box className="flex-row md:grid-cols-2 gap-10 max-w-4xl">
             {[
               {
                 title: 'Reels & Posts Creation',
@@ -56,35 +56,35 @@ export default function BrandingServicesSection() {
                 text: 'Optimized designs and formats for all platforms.'
               }
             ].map((item, idx) => (
-              <div key={idx}>
-                <h3 className="text-xl font-semibold">{item.title}</h3>
-                <p className="text-gray-400 text-sm">{item.text}</p>
-              </div>
+              <Box key={idx}>
+                <Typography variant="h6" className="text-xl font-semibold">{item.title}</Typography>
+                <Typography variant="body2" className="text-gray-400 text-sm">{item.text}</Typography>
+              </Box>
             ))}
-          </div>
-        </div>
+          </Box>
+        </Box>
 
         {/* Coaching & Mentorship Section */}
-        <div className="space-y-10">
-          <h2 className="text-sm font-light uppercase">Branding</h2>
-          <h1 className="text-3xl md:text-5xl font-bold">Coaching & mentorship</h1>
-          <h3 className="text-xl font-semibold">
+        <Box className="space-y-10">
+          <Typography variant="subtitle2" className="text-sm font-light uppercase">Branding</Typography>
+          <Typography variant="h4" className="text-3xl md:text-5xl font-bold">Coaching & mentorship</Typography>
+          <Typography variant="h6" className="text-xl font-semibold">
             Shaping Your Brand with Strategy & Vision
-          </h3>
-          <p className="text-gray-300 max-w-3xl">
+          </Typography>
+          <Typography variant="body2" className="text-gray-300 max-w-3xl">
             Building a brand goes beyond aesthetics; it’s about clarity, consistency, and purpose. At Elevate9, we understand this, which is why our Creative Mentorship & Art Direction program is designed to guide you in defining, strengthening, and aligning your brand identity with your vision and business goals.
-          </p>
+          </Typography>
           <ul className="list-disc pl-5 space-y-2 text-gray-400">
             <li>Develop an Action Plan – Define clear steps to implement and evolve your brand.</li>
             <li>Strengthen Brand Consistency – Ensure a unified presence across all touchpoints, from digital platforms to physical branding.</li>
           </ul>
-        </div>
+        </Box>
 
         {/* Key Benefits Section */}
-        <div className="space-y-10">
-          <h2 className="text-sm font-light uppercase">Branding</h2>
-          <h1 className="text-3xl md:text-5xl font-bold">Key benefits of marketing</h1>
-          <div className="flex-row md:grid-cols-2 gap-10 max-w-4xl">
+        <Box className="space-y-10">
+          <Typography variant="subtitle2" className="text-sm font-light uppercase">Branding</Typography>
+          <Typography variant="h4" className="text-3xl md:text-5xl font-bold">Key benefits of marketing</Typography>
+          <Box className="flex-row md:grid-cols-2 gap-10 max-w-4xl">
             {[
               {
                 title: 'Creates Recognition and Memorability',
@@ -99,17 +99,17 @@ export default function BrandingServicesSection() {
                 text: 'In a crowded marketplace, a unique and compelling brand identity helps you stand out. It communicates your value proposition and highlights why customers should choose you over others.'
               }
             ].map((item, idx) => (
-              <div key={idx}>
-                <h3 className="text-xl font-semibold">{item.title}</h3>
-                <p className="text-gray-400 text-sm">{item.text}</p>
-              </div>
+              <Box key={idx}>
+                <Typography variant="h6" className="text-xl font-semibold">{item.title}</Typography>
+                <Typography variant="body2" className="text-gray-400 text-sm">{item.text}</Typography>
+              </Box>
             ))}
-          </div>
-        </div>
+          </Box>
+        </Box>
 
 
         {/* Call to Action Button */}
-        <div className="text-center pt-10">
+        <Box className="text-center pt-10">
           <Button
             variant="contained"
             color="primary"
@@ -118,7 +118,7 @@ export default function BrandingServicesSection() {
           >
             Lets create together
           </Button>
-        </div>
+        </Box>
       </Box>
     </Box>
   );
