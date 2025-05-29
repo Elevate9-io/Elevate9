@@ -19,13 +19,6 @@
 .webDevelopment-sec1-p, .webDevelopment-sec2-p {
   width: 100%;
 }
-.sidebar {
-  width: 50px;
-}
-.sidebar-wrapper a {
-  height: 30px;
-  width: 30px;
-}
 }
 
 @media (max-width: 1024px) {
@@ -73,22 +66,10 @@
   margin-right: 30px;
   margin-left: 30px;
 }
-.sidebar {
-  top: auto;
-  bottom: 0;
-  width: 100%;
-  height: 50px; /* Horizontal bar */
-}
-.sidebar-wrapper {
-  flex-direction: row;
-}
 }
 
 @media (max-width: 480px) {
 .webDevelopment-sec3-btn {
   padding: 29px 50px;
-}
-.sidebar-wrapper {
-  gap: 5px;
 }
 }
