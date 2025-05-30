@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
                     <Sidebar />
                     <div className="flex flex-col min-h-screen bg-black">
                         <ElevateAppBar />
-                        <div className="flex flex-col w-full mx-auto grow ml-[60px]">
+                        <div className="flex flex-col w-full mx-auto grow">
                             <main className="grow">{children}</main>
                         </div>
                     </div>
