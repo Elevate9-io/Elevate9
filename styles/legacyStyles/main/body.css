@@ -471,3 +471,118 @@ input[type="radio"] {
 .section7-button:active {
   transform: scale(1);
 }
+
+@media (max-width: 1024px) {
+  .section3-content {
+    margin-left: 16px;
+    margin-right: 16px;
+    align-items: center;
+  }
+  .section3-flex-item {
+    width: 95vw;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    padding: 16px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .section3-content {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 4px;
+    align-items: center;
+  }
+  .section3-flex-top,
+  .section3-flex-bottom {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .section3-flex-item {
+    width: 100vw;
+    min-width: 0;
+    max-width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .section3-h1 {
+    font-size: 2rem;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .section3-flex-h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    text-align: center;
+    width: 100%;
+  }
+  .section3-flex-p {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .section3-icon {
+    height: 40px;
+    margin-right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-cont {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .section3-flex-btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .section3-content {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 2px;
+    align-items: center;
+  }
+  .section3-flex-item {
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 8px 0;
+  }
+  .section3-h1 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .section3-flex-btn {
+    font-size: 0.95rem;
+    height: 36px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
