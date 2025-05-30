@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/images/Elevate9-Logo-2.png" sizes="any" />
+                <link rel="icon" href="/Elevate9 Logo_g15.svg" sizes="any" />
             </head>
             <body className="antialiased scroll-smooth">
                 <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
