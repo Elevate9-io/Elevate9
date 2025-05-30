@@ -91,9 +91,9 @@ export default function ElevateAppBar() {
                                 {navLinks.map(({ href, label }) => (
                                     <Link key={label} href={href} passHref>
                                         <Typography
-                                            component="a"
+                                            component="p"
                                             sx={{
-                                                color: 'inherit',
+                                                color: 'white',
                                                 textDecoration: 'none',
                                                 fontWeight: 500,
                                                 px: 2,
