@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { Drawer } from '@mui/material';
 
 const sections = ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7'];
 
@@ -35,7 +36,7 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <div className="relative" style={{ width: 56 }}>
+    <Drawer variant='permanent' sx={{ '& .MuiDrawer-paper': { backgroundColor: 'black' } }}>
       <div className="fixed left-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-3 z-50">
         {sections.map((id, index) => (
           <a
@@ -51,6 +52,6 @@ export default function Sidebar() {
           </a>
         ))}
       </div>
-    </div>
+    </Drawer>
   );
 }
