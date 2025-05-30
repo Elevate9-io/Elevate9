@@ -491,6 +491,23 @@ input[type="radio"] {
   }
 }
 @media (max-width: 768px) {
+  .section1-content, .section1-text, .section1-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .section1-h1, .section1-p, .section1-h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .section1-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
   .section3-content {
     margin-left: 0;
     margin-right: 0;
