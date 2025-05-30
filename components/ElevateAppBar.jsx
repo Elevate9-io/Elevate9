@@ -17,6 +17,7 @@ import { useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
+
 export default function ElevateAppBar() {
     const [drawerOpen, setDrawerOpen] = useState(false);
     const theme = useTheme();
@@ -53,9 +54,9 @@ export default function ElevateAppBar() {
                     >
                         <Box
                             component="img"
-                            src="/images/Elevate9-Logo-2.png"
+                            src="/Elevate9 Logo_g15.svg"
                             alt="Elevate9 Logo"
-                            sx={{ height: 40 }}
+                            sx={{ height: 40, filter: 'invert(1)' }}
                         />
                         {isMobile ? (
                             <>
