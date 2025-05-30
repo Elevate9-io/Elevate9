@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
             <body className="antialiased scroll-smooth">
                 <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
                     <Sidebar />
-                    <div className="flex flex-col min-h-screen">
+                    <div className="flex flex-col min-h-screen bg-black">
                         <ElevateAppBar />
-                        <div className="flex flex-col w-full mx-auto grow">
+                        <div className="flex flex-col w-full mx-auto grow ml-[60px]">
                             <main className="grow">{children}</main>
                         </div>
                     </div>

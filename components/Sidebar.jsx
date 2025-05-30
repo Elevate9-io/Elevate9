@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -36,20 +35,22 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <div className="fixed left-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-3 z-50">
-      {sections.map((id, index) => (
-        <a
-          key={id}
-          href={`#${id}`}
-          className={`w-15 h-15 flex items-center justify-center rounded font-bold text-base transition 
-            ${activeSection === id
-              ? 'bg-white text-black animate-pulse'
-              : 'bg-white text-gray-500 hover:bg-gray-400'}
-          `}
-        >
-          {index + 1}
-        </a>
-      ))}
+    <div className="relative" style={{ width: 56 }}>
+      <div className="fixed left-4 top-1/2 transform -translate-y-1/2 flex flex-col gap-3 z-50">
+        {sections.map((id, index) => (
+          <a
+            key={id}
+            href={`#${id}`}
+            className={`w-14 h-14 flex items-center justify-center rounded font-bold text-base transition 
+              ${activeSection === id
+                ? 'bg-white text-black animate-pulse'
+                : 'bg-white text-gray-500 hover:bg-gray-400'}
+            `}
+          >
+            {index + 1}
+          </a>
+        ))}
+      </div>
     </div>
   );
 }
