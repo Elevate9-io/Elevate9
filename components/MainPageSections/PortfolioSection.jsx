@@ -11,16 +11,16 @@ export default function PortfolioSection() {
                     <p className="section4-p">Building a brand goes beyond aesthetics—it’s about clarity, consistency, and purpose.</p>
                     <div className="section4-flex">
                     <div className="section4-flex-item">
-                        <img src="https://elevate9.io/wp-content/uploads/2025/05/mockspioneerr3.jpg" alt="" className="section4-img" />
+                        <img src="/images/PortfolioImage.png" alt="" className="section4-img" />
                     </div>
                     <div className="section4-flex-item">
-                        <img src="https://elevate9.io/wp-content/uploads/2025/05/TOTEBAG-MOCKUP-1-scaled.jpg" alt="" className="section4-img" />
+                        <img src="/images/PortfolioImage2.png" alt="" className="section4-img" />
                     </div>
                     <div className="section4-flex-item">
-                        <img src="https://elevate9.io/wp-content/uploads/2025/05/Store-Front-Facade-Building-Logo-Mockup-scaled.jpg" alt="" className="section4-img" />
+                        <img src="/images/PortfolioImage3.png" alt="" className="section4-img" />
                     </div>
                     <div className="section4-flex-item">
-                        <img src="https://elevate9.io/wp-content/uploads/2025/05/mockups-groundown4x5B.jpg" alt="" className="section4-img" />
+                        <img src="/images/PortfolioImage4.png" alt="" className="section4-img" />
                     </div>
                     </div>
                 </div>
