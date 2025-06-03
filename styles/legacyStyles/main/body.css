@@ -472,6 +472,15 @@ input[type="radio"] {
   transform: scale(1);
 }
 
+.section2-banner,
+.section3-banner,
+.section4-banner,
+.section5-banner,
+.section6-banner,
+.section7-banner {
+  filter: grayscale(1) brightness(0.9);
+}
+
 @media (max-width: 1024px) {
   .section3-content {
     margin-left: 16px;
