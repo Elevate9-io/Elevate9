@@ -47,7 +47,7 @@
 /*SECTION2*/
 .section2-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(/images/shutterstock_1523729564-scaled.jpg);
   background-size: cover;
@@ -102,7 +102,7 @@
 /*SECTION3*/
 .section3-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(/images/pexels-reynaldoyodia-31036787.jpg);
   background-size: cover;
@@ -214,7 +214,7 @@
 /*SECTION4*/
 .section4-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(/images/shutterstock_2576385863.jpg);
   background-size: cover;
@@ -271,7 +271,7 @@
 /*SECTION5*/
 .section5-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(/images/shutterstock_2439548797.jpg);
   background-size: cover;
@@ -328,7 +328,7 @@
 /*SECTION6*/
 .section6-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(/images/pexels-emiliano-fanti-2363520.jpg);
   background-size: cover;
@@ -418,7 +418,7 @@ input[type="radio"] {
 /*SECTION7*/
 .section7-banner {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url(/images/elevators-scaled.jpg);
   background-size: cover;
