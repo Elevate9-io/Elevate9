@@ -13,7 +13,7 @@ export default function ServicesSection() {
                                     <div className="section3-flex-item">
                                         <div className="flex-container">
                                             <div className="img-cont">
-                                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon.png" alt="" className="section3-icon" />
+                                                <img src="/1.svg" alt="" className="section3-icon" />
                                             </div>
                                             <div className="text-cont">
                                                 <div className="text">
@@ -26,7 +26,7 @@ export default function ServicesSection() {
                                     <div className="section3-flex-item">
                                         <div className="flex-container">
                                             <div className="img-cont">
-                                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon4.png" alt="" className="section3-icon" />
+                                                <img src="/4.svg" alt="" className="section3-icon" />
                                             </div>
                                             <div className="text-cont">
                                                 <div className="text">
@@ -44,7 +44,7 @@ export default function ServicesSection() {
                                     <div className="section3-flex-item">
                                         <div className="flex-container">
                                             <div className="img-cont">
-                                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon2.png" alt="" className="section3-icon" />
+                                                <img src="/2.svg" alt="" className="section3-icon" />
                                             </div>
                                             <div className="text-cont">
                                                 <div className="text">
@@ -57,7 +57,7 @@ export default function ServicesSection() {
                                     <div className="section3-flex-item">
                                         <div className="flex-container">
                                             <div className="img-cont">
-                                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon3.png" alt="" className="section3-icon" />
+                                                <img src="/3.svg" alt="" className="section3-icon" />
                                             </div>
                                             <div className="text-cont">
                                                 <div className="text">
@@ -70,7 +70,7 @@ export default function ServicesSection() {
                                     <div className="section3-flex-item">
                                         <div className="flex-container">
                                             <div className="img-cont">
-                                                <img src="https://elevate9.io/wp-content/uploads/2025/04/icon5.png" alt="" className="section3-icon" />
+                                                <img src="/5.svg" alt="" className="section3-icon" />
                                             </div>
                                             <div className="text-cont">
                                                 <div className="text">
