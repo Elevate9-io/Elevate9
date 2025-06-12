@@ -17,6 +17,7 @@ export default function FormSection() {
                                 action="https://formsubmit.co/info@elevate9.io"
                                 method="POST"
                                 className="flex flex-col gap-4"
+                                netlify
                             >
                                 <Box display="flex" gap={2} flexWrap="wrap">
                                     <div className="flex flex-col flex-1 min-w-[180px]">
