@@ -16,6 +16,7 @@ export default function FormSection() {
                             <form
                                 method="POST"
                                 className="flex flex-col gap-4"
+                                data-netlify="true"
                                 netlify
                             >
                                 <Box display="flex" gap={2} flexWrap="wrap">
