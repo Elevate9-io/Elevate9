@@ -14,8 +14,9 @@ export default function FormSection() {
                         </div>
                         <div className="section5-form w-full max-w-xl mx-auto bg-white bg-opacity-20 p-8 rounded-3xl shadow-lg">
                             <form
-                                action="https://formsubmit.co/info@elevate9.io"
+                                action="mailto:info@elevate9.io"
                                 method="POST"
+                                encType="text/plain"
                                 className="flex flex-col gap-4"
                             >
                                 <Box display="flex" gap={2} flexWrap="wrap">
