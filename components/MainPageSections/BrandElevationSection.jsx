@@ -1,5 +1,3 @@
-
-
 export default function BrandElevationSection() {
     return (
         <div id="section1" className="content-section">
@@ -15,7 +13,11 @@ export default function BrandElevationSection() {
                                     and digital presence that actually converts.
                                 </p>
                                 <h3 className="section1-h3">You bring the vision. We bring the strategy</h3>
-                                <button className="section1-button">Get a free consultation</button>
+                                <a href="#section5">
+                                    <button className="section1-button">
+                                        Get a free consultation
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
