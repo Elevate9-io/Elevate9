@@ -14,7 +14,6 @@ export default function FormSection() {
                         </div>
                         <div className="section5-form w-full max-w-xl mx-auto bg-white bg-opacity-20 p-8 rounded-3xl shadow-lg">
                             <form
-                                action="https://formsubmit.co/info@elevate9.io"
                                 method="POST"
                                 className="flex flex-col gap-4"
                                 netlify
