@@ -27,6 +27,23 @@ export default function RootLayout({ children }) {
                         <div className="flex flex-col w-full mx-auto grow">
                             <main className="grow">{children}</main>
                         </div>
+                        <footer className="bg-gray-900 text-white text-sm py-6 px-4">
+                            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                                <div className="text-center md:text-left">
+                                    <a href="/privacy" className="hover:underline">Privacy Policy</a> ·
+                                    <span> Built by Elevate9</span>
+                                </div>
+                                <div className="flex space-x-4">
+                                    <a href="https://twitter.com/yourhandle" target="_blank" aria-label="Twitter" className="hover:text-blue-400">
+                                        <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M..."/></svg>
+                                    </a>
+                                    <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub" className="hover:text-gray-400">
+                                        <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M..."/></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </footer>
+
                     </div>
                 </AppRouterCacheProvider>
             </body>
