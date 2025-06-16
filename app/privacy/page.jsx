@@ -96,7 +96,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 4. WHAT INFORMATION DO WE COLLECT? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>1. What information do we collect?</div>
+      <div id="info-we-collect" style={headingStyle}>1. What information do we collect?</div>
       <div style={subheadingStyle}>Personal information you disclose to us</div>
       <div style={textStyle}>
         <em>We collect personal information that you provide to us.</em>
@@ -177,7 +177,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 5. HOW DO WE PROCESS YOUR INFORMATION? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>2. How do we process your information?</div>
+      <div id="how-we-process" style={headingStyle}>2. How do we process your information?</div>
       <div style={textStyle}>
         <em>
           We process your information to provide, improve, and administer our
@@ -205,7 +205,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 6. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>3. When and with whom do we share your personal information?</div>
+      <div id="who-we-share" style={headingStyle}>3. When and with whom do we share your personal information?</div>
       <div style={textStyle}>
         <em>
           We may share information in specific situations described in this
@@ -241,7 +241,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 7. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>4. What is our stance on third-party websites?</div>
+      <div id="third-party" style={headingStyle}>4. What is our stance on third-party websites?</div>
       <div style={textStyle}>
         <em>
           We are not responsible for the safety of any information that you share
@@ -266,7 +266,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 8. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>5. Do we use cookies and other tracking technologies?</div>
+      <div id="cookies-tracking" style={headingStyle}>5. Do we use cookies and other tracking technologies?</div>
       <div style={textStyle}>
         <em>We may use cookies and other tracking technologies to collect and store your information.</em>
       </div>
@@ -342,7 +342,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 9. HOW LONG DO WE KEEP YOUR INFORMATION? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>6. How long do we keep your information?</div>
+      <div id="retention" style={headingStyle}>6. How long do we keep your information?</div>
       <div style={textStyle}>
         <em>
           We keep your information for as long as necessary to fulfill the
@@ -364,7 +364,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 10. HOW DO WE KEEP YOUR INFORMATION SAFE? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>7. How do we keep your information safe?</div>
+      <div id="safety" style={headingStyle}>7. How do we keep your information safe?</div>
       <div style={textStyle}>
         <em>
           We aim to protect your personal information through a system of
@@ -387,7 +387,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 11. DO WE COLLECT INFORMATION FROM MINORS? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>8. Do we collect information from minors?</div>
+      <div id="minors" style={headingStyle}>8. Do we collect information from minors?</div>
       <div style={textStyle}>
         <em>We do not knowingly collect data from or market to children under 18 years of age.</em>
       </div>
@@ -406,7 +406,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 12. WHAT ARE YOUR PRIVACY RIGHTS? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>9. What are your privacy rights?</div>
+      <div id="rights" style={headingStyle}>9. What are your privacy rights?</div>
       <div style={textStyle}>
         <em>
           You may review, change, or terminate your account at any time,
@@ -447,7 +447,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 13. CONTROLS FOR DO-NOT-TRACK FEATURES */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>10. Controls for do-not-track features</div>
+      <div id="dnt" style={headingStyle}>10. Controls for do-not-track features</div>
       <div style={textStyle}>
         Most web browsers and some mobile operating systems and mobile
         applications include a Do-Not-Track ("DNT") feature or setting you can
@@ -469,7 +469,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 14. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>11. Do United States residents have specific privacy rights?</div>
+      <div id="us-rights" style={headingStyle}>11. Do United States residents have specific privacy rights?</div>
       <div style={textStyle}>
         <em>
           If you are a resident of certain US states, you may have the right to
@@ -551,7 +551,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 15. DO WE MAKE UPDATES TO THIS NOTICE? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>12. Do we make updates to this notice?</div>
+      <div id="updates" style={headingStyle}>12. Do we make updates to this notice?</div>
       <div style={textStyle}>
         <em>Yes, we will update this notice as necessary to stay compliant with relevant laws.</em>
       </div>
@@ -567,7 +567,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 16. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>13. How can you contact us about this notice?</div>
+      <div id="contact" style={headingStyle}>13. How can you contact us about this notice?</div>
       <div style={textStyle}>
         If you have questions or comments about this notice, you may email us at{" "}
         <a href="mailto:austyn.beach@elevate9.io">austyn.beach@elevate9.io</a> or contact us by post at:
@@ -579,7 +579,7 @@ const PrivacyPolicy = () => (
     </div>
     {/* 17. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? */}
     <div style={sectionStyle}>
-      <div style={headingStyle}>14. How can you review, update, or delete the data we collect from you?</div>
+      <div id="review-data" style={headingStyle}>14. How can you review, update, or delete the data we collect from you?</div>
       <div style={textStyle}>
         Based on the applicable laws of your country or state of residence in
         the US, you may have the right to request access to the personal
