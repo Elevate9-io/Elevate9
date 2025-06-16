@@ -284,7 +284,7 @@ const PrivacyPolicy = () => (
       </div>
       <div style={textStyle}>
         To the extent these online tracking technologies are deemed to be a
-        "sale"/"sharing" (which includes targeted advertising, as defined under
+        &quot;sale&quot;/&quot;sharing&quot; (which includes targeted advertising, as defined under
         the applicable laws) under applicable US state laws, you can opt out of
         these online tracking technologies by submitting a request as described
         in the section on US privacy rights below.
