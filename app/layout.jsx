@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
                         <footer className="bg-black text-white text-sm py-6 px-4">
                             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                                 <div className="text-center md:text-left">
-                                    <a href="/privacy" className="hover:underline">Privacy Policy</a> ·
+                                    <a href="/privacy" className="hover:underline">Privacy Policy</a> &middot;
                                     <span> Built by Elevate9</span>
                                 </div>
                                 <div className="flex gap-1">
