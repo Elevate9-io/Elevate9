@@ -418,16 +418,16 @@ const PrivacyPolicy = () => (
         If we are relying on your consent to process your personal information,
         you have the right to withdraw your consent at any time. You can withdraw
         your consent at any time by contacting us by using the contact details
-        provided in the section "How can you contact us about this notice?"
+        provided in the section &quot;How can you contact us about this notice?&quot;
         below.
       </div>
       <div style={subheadingStyle}>Opting out of marketing and promotional communications</div>
       <div style={textStyle}>
         You can unsubscribe from our marketing and promotional communications at
         any time by clicking on the unsubscribe link in the emails that we send,
-        replying "STOP" or "UNSUBSCRIBE" to the SMS messages that we send, or by
-        contacting us using the details provided in the section "How can you
-        contact us about this notice?" below. You will then be removed from the
+        replying &quot;STOP&quot; or &quot;UNSUBSCRIBE&quot; to the SMS messages that we send, or by
+        contacting us using the details provided in the section &quot;How can you
+        contact us about this notice?&quot; below. You will then be removed from the
         marketing lists. However, we may still communicate with you — for
         example, to send you service-related messages that are necessary for the
         administration and use of your account, to respond to service requests, or
@@ -450,7 +450,7 @@ const PrivacyPolicy = () => (
       <div id="dnt" style={headingStyle}>10. Controls for do-not-track features</div>
       <div style={textStyle}>
         Most web browsers and some mobile operating systems and mobile
-        applications include a Do-Not-Track ("DNT") feature or setting you can
+        applications include a Do-Not-Track (&quot;DNT&quot;) feature or setting you can
         activate to signal your privacy preference not to have data about your
         online browsing activities monitored and collected. At this stage, no
         uniform technology standard for recognizing and implementing DNT signals
@@ -535,18 +535,18 @@ const PrivacyPolicy = () => (
         the reasons for the decisions. If your appeal is denied, you may submit a
         complaint to your state attorney general.
       </div>
-      <div style={subheadingStyle}>California "Shine The Light" Law</div>
+      <div style={subheadingStyle}>California &quot;Shine The Light&quot; Law</div>
       <div style={textStyle}>
-        California Civil Code Section 1798.83, also known as the "Shine The
-        Light" law, permits our users who are California residents to request
+        California Civil Code Section 1798.83, also known as the &quot;Shine The
+        Light&quot; law, permits our users who are California residents to request
         and obtain from us, once a year and free of charge, information about
         categories of personal information (if any) we disclosed to third parties
         for direct marketing purposes and the names and addresses of all third
         parties with which we shared personal information in the immediately
         preceding calendar year. If you are a California resident and would like
         to make such a request, please submit your request in writing to us by
-        using the contact details provided in the section "How can you contact
-        us about this notice?"
+        using the contact details provided in the section &quot;How can you contact
+        us about this notice?&quot;
       </div>
     </div>
     {/* 15. DO WE MAKE UPDATES TO THIS NOTICE? */}
@@ -557,7 +557,7 @@ const PrivacyPolicy = () => (
       </div>
       <div style={textStyle}>
         We may update this Privacy Notice from time to time. The updated version
-        will be indicated by an updated "Revised" date at the top of this Privacy
+        will be indicated by an updated &quot;Revised&quot; date at the top of this Privacy
         Notice. If we make material changes to this Privacy Notice, we may
         notify you either by prominently posting a notice of such changes or by
         directly sending you a notification. We encourage you to review this
