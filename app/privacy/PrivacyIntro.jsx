@@ -13,9 +13,9 @@ const textStyle = {
 const PrivacyIntro = () => (
   <div style={sectionStyle}>
     <div style={textStyle}>
-      This Privacy Notice for Elevate9 ("we", "us", or "our") describes how and
-      why we might access, collect, store, use, and/or share ("process") your
-      personal information when you use our services ("Services"), including
+      This Privacy Notice for Elevate9 (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) describes how and
+      why we might access, collect, store, use, and/or share (&quot;process&quot;) your
+      personal information when you use our services (&quot;Services&quot;), including
       when you:
     </div>
     <ul>
