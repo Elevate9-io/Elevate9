@@ -150,7 +150,7 @@ const PrivacyPolicy = () => (
           tablet, or other device you use to access the Services.
         </li>
         <li>
-          <strong>Location Data.</strong> Information about your device's
+          <strong>Location Data.</strong> Information about your device&apos;s
           location, which can be either precise or imprecise.
         </li>
       </ul>
