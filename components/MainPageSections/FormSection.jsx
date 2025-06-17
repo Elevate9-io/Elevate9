@@ -16,7 +16,7 @@ export default function FormSection() {
                             <form
                                 method="POST"
                                 className="flex flex-col gap-4"
-                                action="https://formsubmit.co/jon.bryant@elevate9.io"
+                                action="https://formsubmit.co/aa57bffabc0a6e03bd24cb186e429af0"
                             >
                                 <Box display="flex" gap={2} flexWrap="wrap">
                                     <div className="flex flex-col flex-1 min-w-[180px]">
