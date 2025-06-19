@@ -1,6 +1,5 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 
-import Sidebar from "components/Sidebar";
 import ElevateAppBar from "components/ElevateAppBar";
 
 import '../styles/globals.css';
@@ -21,7 +20,6 @@ export default function RootLayout({ children }) {
             </head>
             <body className="antialiased scroll-smooth">
                 <AppRouterCacheProvider options={{ enabledCssLayer: true }}>
-                    <Sidebar />
                     <div className="flex flex-col min-h-screen bg-black">
                         <ElevateAppBar />
                         <div className="flex flex-col w-full mx-auto grow">
