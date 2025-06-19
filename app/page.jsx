@@ -5,12 +5,14 @@ import PortfolioSection from "components/MainPageSections/PortfolioSection";
 import FormSection from "components/MainPageSections/FormSection";
 import FAQSection from "components/MainPageSections/FAQSection";
 import ContactUsSection from "components/MainPageSections/ContactUsSection";
+import Sidebar from "components/Sidebar";
 
 
 
 export default function Page() {
     return (
         <div className="flex">
+            <Sidebar />
             <div className="flex-grow md:ml-0">
                 <BrandElevationSection />
 
