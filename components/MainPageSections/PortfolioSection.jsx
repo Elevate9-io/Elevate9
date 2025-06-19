@@ -7,7 +7,7 @@ export default function PortfolioSection() {
                 <div className="section4-banner">
                     <div className="section4-content">
                         <div className="section4-text">
-                            <h1 className="section4-h1">Portfolio - Transformation That Speak</h1>
+                            <h1 className="section4-h1">Portfolio - Transformation That Speaks</h1>
                             <p className="section4-p">Building a brand goes beyond aesthetics—it&apos;s about clarity, consistency, and purpose.</p>
                             <div className="section4-flex">
                                 <div className="section4-flex-item">
