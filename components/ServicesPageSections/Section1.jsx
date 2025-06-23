@@ -4,7 +4,7 @@ export default function Section1() {
   return (
     <section
       id="section1"
-      className="relative w-full min-h-screen bg-[url('https://elevate9.io/wp-content/uploads/2025/03/elevate9.jpg')] bg-cover bg-center"
+      className="relative w-full min-h-screen bg-[url('/images/futuristic_cityscape_bw.jpg')] bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-black/50 z-0" />
       <div className="relative z-10 h-full px-8 md:px-[233px] flex items-center justify-center text-white">
