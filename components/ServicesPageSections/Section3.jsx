@@ -7,7 +7,6 @@ export default function Section3() {
       id="section3"
       sx={{
         position: 'relative',
-        width: '100%',
         minHeight: '100vh',
         backgroundImage: "url('/images/space_shuttle_launch_realistic_bw.jpg')",
         backgroundSize: 'cover',
