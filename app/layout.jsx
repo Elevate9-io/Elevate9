@@ -5,11 +5,34 @@ import ElevateAppBar from "components/ElevateAppBar";
 import '../styles/globals.css';
 
 
+
 export const metadata = {
-    title: {
-        template: '%s | Elevate9',
-        default: 'Elevate9 - Elevate Your Brand',
-    }
+  title: {
+    template: '%s | Elevate9',
+    default: 'Elevate9 - Elevate Your Brand',
+  },
+  description: 'Elevate9 offers branding, design, and marketing solutions to elevate your business.',
+  openGraph: {
+    title: 'Elevate9 - Elevate Your Brand',
+    description: 'Elevate9 offers branding, design, and marketing solutions to elevate your business.',
+    url: 'https://elevate9.com',
+    siteName: 'Elevate9',
+    images: [
+      {
+        url: '/images/Elevate9-Logo-2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Elevate9 branding preview',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Elevate9 - Elevate Your Brand',
+    description: 'Elevate9 offers branding, design, and marketing solutions to elevate your business.',
+    images: ['/images/Elevate9-Logo-2.png'],
+  },
 };
 
 export default function RootLayout({ children }) {
