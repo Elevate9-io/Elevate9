@@ -7,6 +7,7 @@ import '../styles/globals.css';
 
 
 export const metadata = {
+    metadataBase: 'https://elevate9.io',
   title: {
     template: '%s | Elevate9',
     default: 'Elevate9 - Elevate Your Brand',
@@ -15,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: 'Elevate9 - Elevate Your Brand',
     description: 'Elevate9 offers branding, design, and marketing solutions to elevate your business.',
-    url: 'https://elevate9.com',
+    url: 'https://elevate9.io',
     siteName: 'Elevate9',
     images: [
       {
