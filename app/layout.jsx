@@ -19,7 +19,7 @@ export const metadata = {
     siteName: 'Elevate9',
     images: [
       {
-        url: '/images/Elevate9-Logo-2.png',
+        url: '/images/elevate9.jpg',
         width: 1200,
         height: 630,
         alt: 'Elevate9 branding preview',
@@ -31,7 +31,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Elevate9 - Elevate Your Brand',
     description: 'Elevate9 offers branding, design, and marketing solutions to elevate your business.',
-    images: ['/images/Elevate9-Logo-2.png'],
+    images: ['/images/elevate9.jpg'],
   },
 };
 
