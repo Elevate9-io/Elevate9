@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 export default function FormSection() {
     return (
@@ -75,6 +75,16 @@ export default function FormSection() {
                                 >
                                     Send
                                 </button>
+                                
+                                <div>
+                                    <Typography color="grey.400" fontSize={12}>
+                                        {`By providing a telephone number and submitting the form, `}
+                                        {`you are consenting to be contacted by SMS text message and `}
+                                        {`agreeing to our Privacy Policy. Message frequency may vary. `}
+                                        {`Message and data rates may apply. Reply STOP to opt out of `}
+                                        {`further messaging. Reply HELP for more information.`}
+                                    </Typography>
+                                </div>
                             </form>
                         </div>
                     </div>
